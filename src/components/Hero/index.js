@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '..'
+import Navbar from '../Navbar'
 import {HeroContainer,HeroContent,HeroItems,HeroH1,HeroP,HeroBtn} from './HeroElements'
 
 function Hero() {
