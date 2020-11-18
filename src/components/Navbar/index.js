@@ -7,10 +7,8 @@ export default function Navbar() {
             <Nav>
                 <NavLink to="/">Burguers</NavLink>
                 <NavIcon>
-                
                     <p>Menu</p>
                     <Bars />
-                
                 </NavIcon>
             </Nav>
         </>
