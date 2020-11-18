@@ -6,7 +6,7 @@ import {FaHamburger} from "react-icons/fa"
 
 
 export const Nav = styled.nav`
-background: blue;
+background: transparent;
 height: 80px;
 display: flex;
 justify-content: center;
@@ -37,16 +37,17 @@ right: 0;
 cursor:pointer;
 
 p {
-    transform: traslate(-175%, 100%)
+    transform: traslate(-175%, 100%);
+    font-weight: bold;
     color: white;
-    font-weight: bold
 }
 `
 
 
 export const Bars = styled(FaHamburger)`
 font-size: 2rem;
-transform: traslate(-50%,-15%)
+transform: traslate(-50%,-15%);
+color: white
 `
 
 
