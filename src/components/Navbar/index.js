@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <>
             <Nav>
-                <NavLink to="/">Burguers</NavLink>
+                <NavLink to="/">Burgerland</NavLink>
                 <NavIcon>
                     <p>Menu</p>
                     <Bars />
