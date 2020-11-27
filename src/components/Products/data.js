@@ -1,12 +1,12 @@
 export const productData = [
   {
     img:
-      "https://www.cidadeoferta.com.br/storage/offers/9512-hamb_oferta7_imagem2.jpg",
+      "https://www.seriouseats.com/recipes/images/2015/07/20150728-homemade-whopper-food-lab-35-1500x1125.jpg",
     alt: "Burger",
     name: "Australasia",
     desc:
       "Popular regional hamburger, includes canned beetroot, pineapple and a fried egg.",
-    price: $12,
+    price: "$12",
     button: "Add to Cart",
   },
   {
@@ -14,7 +14,7 @@ export const productData = [
       "https://i.pinimg.com/736x/41/a2/f6/41a2f6e20dd9f80a8cedc4324afe40ef.jpg",
     alt: "Burger",
     name: "Bacon",
-    desc: "Hamburger with bacon and cheese.",
+    desc: "Hamburger with bacon, tomatoes, mustard and yellow cheese.",
     price: "$13.99",
     button: "Add to Cart",
   },
