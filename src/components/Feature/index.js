@@ -3,7 +3,7 @@ import { FeatureContainer, FeatureButton } from "./FeatureElements";
 
 const Feature = () => {
   return (
-    <FeatureContainer>
+    <FeatureContainer id="special">
       <h1>Burger of the Day</h1>
       <p>Club Burger! Angus, Chorizo, Hawain all in just one package!</p>
       <FeatureButton>Order Now</FeatureButton>
