@@ -6,7 +6,7 @@ export const Nav = styled.nav`
   background: transparent;
   height: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   font-weight: 700;
   align-items: center;
 `;
@@ -17,7 +17,9 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  cursor: pointer @media screen and(max-width: 400px) {
+  cursor: pointer;
+  padding: 20px;
+  @media screen and(max-width: 400px) {
     position: absolute;
     top: 10px;
     left: 25px;
@@ -26,10 +28,9 @@ export const NavLink = styled(Link)`
 
 export const NavIcon = styled.div`
   display: flex;
-  position: absolute;
-  top: 50;
-  right: 40px;
   cursor: pointer;
+  position: relative;
+  margin-right: 5px;
 
   p {
     transform: traslate(-175%, 100%);
